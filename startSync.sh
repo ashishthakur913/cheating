@@ -6,5 +6,5 @@ while true; do
 	${GIT} add --all .
 	${GIT} commit -m "New question"
 	${GIT} push origin master
-	sleep 5
+	sleep 10
 done
